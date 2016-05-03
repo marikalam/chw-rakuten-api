@@ -4,6 +4,7 @@
 ![Slice](/images/slice-logo.png)
 * **Name** Slice
 * **URL** https://developer.slice.com
+* **Sample Code** https://github.com/slicedev
 * **Description** Slice automatically picks up tracking numbers in your email whenever you buy something. Slice’s technology automatically identifies e-receipts within inboxes and extracts every data point about every purchase to create digital commerce products that delight consumers and create business value for partners.
 
 ---
@@ -16,11 +17,12 @@
 
 ---
 
-#Deep Forest Media
-![Deep Forest Media](/images/deepforestmedia-logo.png)
-* **Name** Deep Forest Media
-* **URL** http://www.deepforestmedia.com/ [No open-source API]
-* **Description** Deep Forest Media Smart Advertising Platform provides an integrated system for mobile advertisers to truly realize the value of their marketing spend. Their platform integrates with the various mobile ad networks and provides a uniform set of analytics and insights. 
+#Rakuten Ecosystem Mobile
+![Rakuten Ecosystem Mobile](/images/rem-logo.png)
+* **Name** Rakuten Ecosysten Mobile
+* **URL** http://www.raksdtd.com/
+* **List of API URLs and JSON responses (only accessible via Rakuten Box)** https://rak.box.com/s/5s7bbd5nuu8rkb7u8dgt3gb8fv7sbaks
+* **Description** Rakuten Ecosystem Mobile (REM) empowers developers around the world to develop mobile applications that deliver engaging experience to users.
 
 ---
 
@@ -83,7 +85,7 @@
 #Rakuten Books
 ![Rakuten Books](https://media.antoniotajuelo.com/rakuten/service/logo/rakuten-ichiba.png)
 * **Name** Rakuten Books
-* **URL** http://books.rakuten.co.jp/
+* **URL** https://rakuten-api-documentation.antoniotajuelo.com/rakuten/service/view?rakuten_service_id=2
 * **Description** Rakuten's shop for media products like books, magazines, videogames, DVDs, Blu-ray and software.
 
 ---
@@ -109,4 +111,3 @@
 * **Name** Rakuten GORA
 * **URL** https://rakuten-api-documentation.antoniotajuelo.com/rakuten/service/view?rakuten_service_id=8
 * **Description** Rakuten's online golf reservation site.
-
