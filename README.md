@@ -21,8 +21,24 @@
 ![Rakuten Ecosystem Mobile](/images/rem-logo.png)
 * **Name** Rakuten Ecosysten Mobile
 * **URL** http://www.raksdtd.com/
-* **List of API URLs and JSON responses (only accessible via Rakuten Box)** https://rak.box.com/s/5s7bbd5nuu8rkb7u8dgt3gb8fv7sbaks
+* **List of APIs and responses (only accessible via Rakuten Box)** https://rak.box.com/s/5s7bbd5nuu8rkb7u8dgt3gb8fv7sbaks
 * **Description** Rakuten Ecosystem Mobile (REM) empowers developers around the world to develop mobile applications that deliver engaging experience to users.
+
+---
+
+#Overdrive
+![Overdrive](/images/overdrive-logo.png)
+* **Name** Overdrive
+* **URL** https://developer.overdrive.com/docs/getting-started
+* **Description** OverDrive, Inc. is an American digital distributor of eBooks, audiobooks, music, and video titles. The company provides secure management, digital rights management and download fulfillment services for publishers, libraries, schools, and retailers. OverDrive's catalog includes more than 2 million digital titles from more than 5,000 publishers.
+
+---
+
+#Rakuten PopShops
+![Overdrive](/images/popshops-logo.png)
+* **Name** Rakuten PopShops
+* **URL** https://www.popshops.com/support/api-overview
+* **Description** PopShops is primarily used by affiliate publishers as a means to obtain up-to-the-minute pricing and product data.
 
 ---
 
