@@ -1,4 +1,10 @@
-# CHW Rakuten API Documentation
+#CHW Rakuten API Documentation
+
+<p align="center">
+  <img src=/images/hackr.png width="350"/>
+</p>
+
+
 
 #Slice
 ![Slice](/images/slice-logo.png)
@@ -37,7 +43,7 @@
 #Rakuten PopShops
 ![Overdrive](/images/popshops-logo.png)
 * **Name** Rakuten PopShops
-* **URL** https://www.popshops.com/support/api-overview
+* **URL** https://www.popshops.com/support/api-3-products
 * **Description** PopShops is primarily used by affiliate publishers as a means to obtain up-to-the-minute pricing and product data.
 
 ---
