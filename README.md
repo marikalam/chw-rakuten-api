@@ -23,12 +23,12 @@
 
 ---
 
-#Rakuten Ecosystem Mobile
-![Rakuten Ecosystem Mobile](/images/rem-logo.png)
-* **Name** Rakuten Ecosysten Mobile
-* **URL** http://www.raksdtd.com/
+# Rakuten Content Optimization System (RCOS) 
+![Rakuten Ecosystem Mobile](/images/rcos-logo.png)
+* **Name** Rakuten Content Optimization System
+* **URL** http://www.raksdtd.com/features/content-optimization-system-rcos/standard-model-item-properties-and-mapping-service/
 * **List of APIs and responses (only accessible via Rakuten Box)** https://rak.box.com/s/5s7bbd5nuu8rkb7u8dgt3gb8fv7sbaks
-* **Description** Rakuten Ecosystem Mobile (REM) empowers developers around the world to develop mobile applications that deliver engaging experience to users.
+* **Description** The Rakuten Content Optimization System (RCOS) maps content from a number of Rakuten and Non-Rakuten sources into a canonical data model. This content is cached, updated constantly and made available to consumers across the world. RCOS consolidates multiple APIs with different Authorization mechanisms and Input Formats (e.g. Json, Xml, Rss, Html), caches the API responses and maps the values to a consistent RCOS Standard Data Model. This lowers the barrier, allowing Applications and Web Developers to retrieve updates from multiple Feed Providers in a faster and easier way.
 
 ---
 
