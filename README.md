@@ -5,7 +5,6 @@
 </p>
 
 
-
 #Slice
 ![Slice](https://raw.githubusercontent.com/marikaklee/chw-rakuten-api/master/images/slice-logo.png)
 * **Name** Slice
@@ -23,11 +22,35 @@
 
 ---
 
+#Rakuten PopShops
+![Popshops](https://raw.githubusercontent.com/marikaklee/chw-rakuten-api/master/images/popshops-logo.png)
+* **Name** Rakuten PopShops
+* **URL** https://www.popshops.com/support/api-3-products
+* **Description** PopShops is primarily used by affiliate publishers as a means to obtain up-to-the-minute pricing and product data.
+
+###Popshops - RCP Product API
+* **Description** Through this API, people can access affiliated marketing product content from the Popshops side of the business (about 88M products). Note that this is a just a subset of the total RCP product data. People shouldn’t exceed 1 QPS when calling the API. 
+  * Each product has a unique ID.
+  * There may be more than one offer (item) under each product.
+  * Offer url will go to the actual page where the item is being sold.
+  * The API also returns deals, deal types, brands, merchants, and RCP categories.
+* **URL (for more detail)** https://rak.box.com/s/w7hzlgqyea9q2b7hz0c6zpiw2dplut45
+
+###Popshops - RCP Auto-Classification Service
+* **Description** This is an API that people can use to automatically classify a product into a category taxonomy. Have a product and don’t know where it goes? You can use this API to get the right category! It uses RIT data science / machine learning in the backend to make the category predictions.
+  * The API currently only works for the Slice category taxonomy.
+  * Rak-athon participates should plan on limiting their calls to 1 QPS when calling this API. 
+  * This API is only available in staging right now, but should be in production soon. Developers can use the staging API in the meantime.
+  * Some prediction results will only show the root category node, whereas others will show a full category path. This is due to not all the data science models being ready to auto-classify down to certain category branches.
+* **URL (for more detail)** https://rak.box.com/s/ovyhyokrarsb21kjepmy9p2jum511g0a
+
+---
+
 # Rakuten Content Optimization System (RCOS) 
 ![Rakuten Ecosystem Mobile](https://raw.githubusercontent.com/marikaklee/chw-rakuten-api/master/images/rcos-logo.png)
 * **Name** Rakuten Content Optimization System
 * **URL** http://www.raksdtd.com/features/content-optimization-system-rcos/standard-model-item-properties-and-mapping-service/
-* **List of APIs and responses (only accessible via Rakuten Box)** https://rak.box.com/s/5s7bbd5nuu8rkb7u8dgt3gb8fv7sbaks
+* **List of APIs and responses** https://rak.box.com/s/5s7bbd5nuu8rkb7u8dgt3gb8fv7sbaks
 * **Description** The Rakuten Content Optimization System (RCOS) maps content from a number of Rakuten and Non-Rakuten sources into a canonical data model. This content is cached, updated constantly and made available to consumers across the world. RCOS consolidates multiple APIs with different Authorization mechanisms and Input Formats (e.g. Json, Xml, Rss, Html), caches the API responses and maps the values to a consistent RCOS Standard Data Model. This lowers the barrier, allowing Applications and Web Developers to retrieve updates from multiple Feed Providers in a faster and easier way.
 
 ---
@@ -37,14 +60,6 @@
 * **Name** Overdrive
 * **URL** https://developer.overdrive.com/docs/getting-started
 * **Description** OverDrive, Inc. is an American digital distributor of eBooks, audiobooks, music, and video titles. The company provides secure management, digital rights management and download fulfillment services for publishers, libraries, schools, and retailers. OverDrive's catalog includes more than 2 million digital titles from more than 5,000 publishers.
-
----
-
-#Rakuten PopShops
-![Overdrive](https://raw.githubusercontent.com/marikaklee/chw-rakuten-api/master/images/popshops-logo.png)
-* **Name** Rakuten PopShops
-* **URL** https://www.popshops.com/support/api-3-products
-* **Description** PopShops is primarily used by affiliate publishers as a means to obtain up-to-the-minute pricing and product data.
 
 ---
 
@@ -133,3 +148,7 @@
 * **Name** Rakuten GORA
 * **URL** https://rakuten-api-documentation.antoniotajuelo.com/rakuten/service/view?rakuten_service_id=8
 * **Description** Rakuten's online golf reservation site.
+
+---
+
+_Note: Some links are directed to Rak Box due to security reasons._
